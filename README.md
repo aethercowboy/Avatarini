@@ -9,6 +9,8 @@ About
 Avatarini attempts to allow the user to create a visual representation of a character using a simple specification.
 Once the character is specified, there are several options for export:
 
+0. toHTML() - Renders the Avatarini as a collection of HTML.
+
 1. toSVG() - Returns the Avatarini object as an SVG group.
 
 2. toCanvas() - Returns the Avatarini object in a Canvas-friendly manner.
@@ -41,7 +43,7 @@ To use this library, first you must reference it like any other JS library. Then
     
     var holtSVG1 = holt.toSVG();
     
-    holt.mouth.state = "grin";
+    holt.mouth.type = "smile";
     
     var holtSVG2 = holt.toSVG();
 
