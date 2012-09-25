@@ -39,7 +39,7 @@ To use this library, first you must reference it like any other JS library. Then
         haircolor: "orange",
       });
     
-    holt.mouth.state = "open";
+    holt.mouth.type = "frown";
     
     var holtSVG1 = holt.toSVG();
     
