@@ -183,11 +183,11 @@ AvatariniHead.prototype.prepArgs = function (args) {
         args.ears = {};
     }
     
-    if (typeof(args.mouth) == "undefined") {
+    if (typeof(args.mouth) === "undefined") {
         args.mouth = {};
     }
     
-    if (typeof(args.nose) == "undefined") {
+    if (typeof(args.nose) === "undefined") {
         args.nose = {};
     }
 }
